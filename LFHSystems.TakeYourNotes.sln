@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{7B516D9A-C49D-422A-955E-50784386BB43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{77B75888-BF18-40F7-90DF-34843F1C3BDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{B1BCAEAA-AF4B-4058-8EA7-0507CC9A8D5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LFHSystems.TakeYourNotes.Model", "LFHSystems.TakeYourNotes.Model\LFHSystems.TakeYourNotes.Model.csproj", "{2538E426-9928-4CDD-8E1F-0F846EF1CF32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LFHSystems.TakeYourNotes.Repository", "LFHSystems.TakeYourNotes.Repository\LFHSystems.TakeYourNotes.Repository.csproj", "{8634E3C8-3DCD-4F9A-8A45-65898B644B01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LFHSystems.TakeYourNotes.WebAPI", "LFHSystems.TakeYourNotes.WebAPI\LFHSystems.TakeYourNotes.WebAPI.csproj", "{CDCA425E-D57E-44EC-923C-A053BE45CFB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LFHSystems.TakeYourNotes.WebApp", "LFHSystems.TakeYourNotes.WebApp\LFHSystems.TakeYourNotes.WebApp.csproj", "{73F13527-663E-4D61-BC87-4119C50C0AEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LFHSystems.TakeYourNotes.Business", "LFHSystems.TakeYourNotes.Business\LFHSystems.TakeYourNotes.Business.csproj", "{7D6A8AA0-7595-4232-8708-9E1FDA975F04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helper", "Helper", "{92B599BF-CB36-4617-BDF9-DDD41C1042A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LFHSystems.TakeYourNotes.Utils", "LFHSystems.TakeYourNotes.Utils\LFHSystems.TakeYourNotes.Utils.csproj", "{188CE881-F5D4-4B87-A0F0-959E7062CE16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2538E426-9928-4CDD-8E1F-0F846EF1CF32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2538E426-9928-4CDD-8E1F-0F846EF1CF32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2538E426-9928-4CDD-8E1F-0F846EF1CF32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2538E426-9928-4CDD-8E1F-0F846EF1CF32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8634E3C8-3DCD-4F9A-8A45-65898B644B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8634E3C8-3DCD-4F9A-8A45-65898B644B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8634E3C8-3DCD-4F9A-8A45-65898B644B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8634E3C8-3DCD-4F9A-8A45-65898B644B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDCA425E-D57E-44EC-923C-A053BE45CFB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDCA425E-D57E-44EC-923C-A053BE45CFB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDCA425E-D57E-44EC-923C-A053BE45CFB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDCA425E-D57E-44EC-923C-A053BE45CFB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F13527-663E-4D61-BC87-4119C50C0AEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F13527-663E-4D61-BC87-4119C50C0AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F13527-663E-4D61-BC87-4119C50C0AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F13527-663E-4D61-BC87-4119C50C0AEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D6A8AA0-7595-4232-8708-9E1FDA975F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D6A8AA0-7595-4232-8708-9E1FDA975F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D6A8AA0-7595-4232-8708-9E1FDA975F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D6A8AA0-7595-4232-8708-9E1FDA975F04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{188CE881-F5D4-4B87-A0F0-959E7062CE16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{188CE881-F5D4-4B87-A0F0-959E7062CE16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{188CE881-F5D4-4B87-A0F0-959E7062CE16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{188CE881-F5D4-4B87-A0F0-959E7062CE16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2538E426-9928-4CDD-8E1F-0F846EF1CF32} = {77B75888-BF18-40F7-90DF-34843F1C3BDF}
+		{8634E3C8-3DCD-4F9A-8A45-65898B644B01} = {77B75888-BF18-40F7-90DF-34843F1C3BDF}
+		{CDCA425E-D57E-44EC-923C-A053BE45CFB7} = {7B516D9A-C49D-422A-955E-50784386BB43}
+		{73F13527-663E-4D61-BC87-4119C50C0AEA} = {B1BCAEAA-AF4B-4058-8EA7-0507CC9A8D5D}
+		{7D6A8AA0-7595-4232-8708-9E1FDA975F04} = {77B75888-BF18-40F7-90DF-34843F1C3BDF}
+		{188CE881-F5D4-4B87-A0F0-959E7062CE16} = {92B599BF-CB36-4617-BDF9-DDD41C1042A6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {388749D6-F044-4081-A484-B415B7B03AD2}
+	EndGlobalSection
+EndGlobal
